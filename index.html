@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <p>Enter Amount</p>
+        <input type="text" id="amount" value="100">
+
+        <div class="currency-choice">
+            <div class="from-div">
+                <p>From</p>
+                <div id="from-cont">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                    <select id="from"></select>
+                </div>
+            </div>
+            <pre>&#8646</pre>
+            <div class="to-div">
+                <p>To</p>
+                <div id="to-cont">
+                    <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                    <select id="to"></select>
+                </div>
+            </div>
+        </div>
+
+        <p id="result">1 USD = 90 INR</p>
+        <button>Get Exchange Rate</button>
+    </div>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
